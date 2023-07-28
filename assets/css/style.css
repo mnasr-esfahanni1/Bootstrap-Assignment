@@ -14,7 +14,6 @@
 }
 
 main div section:hover{
-    
     color: rgb(0, 47, 255);
     border-color: rgb(0, 47, 255) !important;  
 }
