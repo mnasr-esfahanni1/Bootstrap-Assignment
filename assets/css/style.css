@@ -14,8 +14,8 @@
 }
 img{
   width: 100%;
-  height: 100%;
-  background-image: url(../image/fullGraph.png);
+  height: auto;
+  background-image: url(../image/fullGraph.png) !important;
   background-color: black;
 }
 main div section:hover{
