@@ -13,6 +13,7 @@
   height: 3vw;
 }
 img{
+  width: 100%;
   background-image: url(../image/fullGraph.png);
 }
 main div section:hover{
