@@ -1,0 +1,73 @@
+
+
+#mobileMenu,#HeaderMobile{
+  display: none;
+}
+
+.img-Circle{
+  border-radius: 75%;
+  background-image:url(../image/Profile.png);
+  background-position: center;
+  background-size: cover;
+  width: 3vw;
+  height: 3vw;
+}
+
+main div section:hover{
+    
+    color: rgb(0, 47, 255);
+    border-color: rgb(0, 47, 255) !important;  
+}
+
+/* Responsive for Media with breakpoint 650 */
+@media only screen and (max-width:650px) {
+   
+      #emptyContent,
+      #navMenu,
+      #emptyList,#HeaderLargeScreen{
+        display: none !important;
+      }
+      #mobileMenu,#HeaderMobile{
+        display: flex;
+      }
+      #mainContent{
+        display: flex;
+       margin-top: 8vh;
+        justify-content: center;
+      }
+      #Status{
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 8vh !important;
+       
+      }
+      #Status section {
+        flex: 33.3% ;
+      }
+      #todayTrend{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 !important;
+      }
+      #TableOfTrend{
+        flex-direction: column;
+        
+      }
+      #itemList{
+        width: 100%;
+       
+      }
+      #TicketsTasks{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 8vh 0 !important;
+        gap: 20px;
+      }
+      .img-Circle{
+     
+        width: 45px;
+        height: 45px;
+      }
+  }
+  
