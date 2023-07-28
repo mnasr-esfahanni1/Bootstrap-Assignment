@@ -37,6 +37,7 @@ main div section:hover{
       }
       #Status{
         max-width: 100%;
+        min-height: 100%;
         flex-wrap: wrap;
         margin-bottom: 8vh !important;
        
