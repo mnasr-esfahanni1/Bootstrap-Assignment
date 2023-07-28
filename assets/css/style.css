@@ -12,12 +12,12 @@
   width: 3vw;
   height: 3vw;
 }
-#img{
+/* #img{
   width: 100%;
   height: auto;
   background-image: url(../image/fullGraph.png) !important;
   background-color: black;
-}
+} */
 main div section:hover{
     
     color: rgb(0, 47, 255);
